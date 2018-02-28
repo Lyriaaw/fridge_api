@@ -1,0 +1,3 @@
+class ReceipeStep < ApplicationRecord
+
+end
