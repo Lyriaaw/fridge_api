@@ -16,6 +16,9 @@ Rails.application.routes.draw do
   post '/recipe/:recipe_id/add-step', to: 'receipe_step#create'
 
 
+  get '/recipes/find/:fridgeId', to: 'recipe_finder#find'
+
+
 
 
 
