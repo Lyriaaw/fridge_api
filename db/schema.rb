@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180228135443) do
+ActiveRecord::Schema.define(version: 20180228233240) do
 
   create_table "fridges", force: :cascade do |t|
     t.datetime "created_at", null: false
@@ -41,6 +41,7 @@ ActiveRecord::Schema.define(version: 20180228135443) do
     t.integer "receipe_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.float "quantity"
     t.index ["product_id"], name: "index_receipe_items_on_product_id"
     t.index ["receipe_id"], name: "index_receipe_items_on_receipe_id"
   end
