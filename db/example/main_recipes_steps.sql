@@ -1,8 +1,8 @@
-INSERT INTO recipes_steps (id, recipe_id, created_at, updated_at, description) VALUES (1, 101, '2018-03-01 06:05:54.591388', '2018-03-01 06:05:54.591388', 'Mélanger');
-INSERT INTO recipes_steps (id, recipe_id, created_at, updated_at, description) VALUES (2, 104, '2018-03-01 06:11:54.889188', '2018-03-01 06:11:54.889188', 'Melanger');
+INSERT INTO recipes_steps (id, recipe_id, created_at, updated_at, description) VALUES (1, 101, '2018-03-01 06:05:54.591388', '2018-03-01 06:05:54.591388', 'Faire une omelette');
+INSERT INTO recipes_steps (id, recipe_id, created_at, updated_at, description) VALUES (2, 104, '2018-03-01 06:11:54.889188', '2018-03-01 06:11:54.889188', 'Battre les blancs en neige');
 INSERT INTO recipes_steps (id, recipe_id, created_at, updated_at, description) VALUES (4, 106, '2018-03-01 06:15:01.180422', '2018-03-01 06:15:01.180422', 'Mélanger');
 INSERT INTO recipes_steps (id, recipe_id, created_at, updated_at, description) VALUES (5, 108, '2018-03-01 06:19:24.737983', '2018-03-01 06:19:24.737983', 'Boire');
-INSERT INTO recipes_steps (id, recipe_id, created_at, updated_at, description) VALUES (6, 109, '2018-03-01 06:22:19.084990', '2018-03-01 06:22:19.084990', 'Boire');
+INSERT INTO recipes_steps (id, recipe_id, created_at, updated_at, description) VALUES (6, 109, '2018-03-01 06:22:19.084990', '2018-03-01 06:22:19.084990', 'Service le verre ');
 INSERT INTO recipes_steps (id, recipe_id, created_at, updated_at, description) VALUES (10, 111, '2018-03-01 09:13:09.307521', '2018-03-01 09:13:09.307521', 'Faire cuire le riz');
 INSERT INTO recipes_steps (id, recipe_id, created_at, updated_at, description) VALUES (11, 111, '2018-03-01 09:13:09.314075', '2018-03-01 09:13:09.314075', 'Couper l''oignon en cube et le faire revenir à la poele');
 INSERT INTO recipes_steps (id, recipe_id, created_at, updated_at, description) VALUES (12, 111, '2018-03-01 09:13:09.321120', '2018-03-01 09:13:09.321120', 'Faire cuire les champignons avec la crème');
@@ -11,3 +11,11 @@ INSERT INTO recipes_steps (id, recipe_id, created_at, updated_at, description) V
 INSERT INTO recipes_steps (id, recipe_id, created_at, updated_at, description) VALUES (15, 113, '2018-03-01 09:31:35.680824', '2018-03-01 09:31:35.680824', 'Mélanger, cuire et tout et tout');
 INSERT INTO recipes_steps (id, recipe_id, created_at, updated_at, description) VALUES (16, 115, '2018-03-01 09:48:21.842535', '2018-03-01 09:48:21.842535', 'Melangez');
 INSERT INTO recipes_steps (id, recipe_id, created_at, updated_at, description) VALUES (17, 115, '2018-03-01 09:48:21.855270', '2018-03-01 09:48:21.855270', 'Faites cuire');
+INSERT INTO recipes_steps (id, recipe_id, created_at, updated_at, description) VALUES (18, 109, '2018-03-01 06:22:19.084990', '2018-03-01 06:22:19.084990', 'Boire le verre
+');
+INSERT INTO recipes_steps (id, recipe_id, created_at, updated_at, description) VALUES (19, 104, '2018-03-01 06:11:54.889188', '2018-03-01 06:11:54.889188', 'Incorporer le sucre');
+INSERT INTO recipes_steps (id, recipe_id, created_at, updated_at, description) VALUES (20, 104, '2018-03-01 06:11:54.889188', '2018-03-01 06:11:54.889188', 'Battre 10 minutes');
+INSERT INTO recipes_steps (id, recipe_id, created_at, updated_at, description) VALUES (21, 104, '2018-03-01 06:11:54.889188', '2018-03-01 06:11:54.889188', 'Cuire a 130C 50minutes');
+INSERT INTO recipes_steps (id, recipe_id, created_at, updated_at, description) VALUES (22, 101, '2018-03-01 06:05:54.591388', '2018-03-01 06:05:54.591388', 'Ajouter la farine');
+INSERT INTO recipes_steps (id, recipe_id, created_at, updated_at, description) VALUES (23, 101, '2018-03-01 06:05:54.591388', '2018-03-01 06:05:54.591388', 'Delayez au lait');
+INSERT INTO recipes_steps (id, recipe_id, created_at, updated_at, description) VALUES (24, 101, '2018-03-01 06:05:54.591388', '2018-03-01 06:05:54.591388', 'Cuire à la poele');
