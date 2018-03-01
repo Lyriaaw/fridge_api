@@ -1,0 +1,15 @@
+INSERT INTO schema_migrations (version) VALUES ('20180227181255');
+INSERT INTO schema_migrations (version) VALUES ('20180228004212');
+INSERT INTO schema_migrations (version) VALUES ('20180228010134');
+INSERT INTO schema_migrations (version) VALUES ('20180228015831');
+INSERT INTO schema_migrations (version) VALUES ('20180228022728');
+INSERT INTO schema_migrations (version) VALUES ('20180228123149');
+INSERT INTO schema_migrations (version) VALUES ('20180228123407');
+INSERT INTO schema_migrations (version) VALUES ('20180228125123');
+INSERT INTO schema_migrations (version) VALUES ('20180228135109');
+INSERT INTO schema_migrations (version) VALUES ('20180228135144');
+INSERT INTO schema_migrations (version) VALUES ('20180228135231');
+INSERT INTO schema_migrations (version) VALUES ('20180228135443');
+INSERT INTO schema_migrations (version) VALUES ('20180228233240');
+INSERT INTO schema_migrations (version) VALUES ('20180301000812');
+INSERT INTO schema_migrations (version) VALUES ('20180301001532');

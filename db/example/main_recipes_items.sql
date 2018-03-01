@@ -1,0 +1,15 @@
+INSERT INTO recipes_items (id, product_id, recipe_id, created_at, updated_at, quantity) VALUES (1, 6, 101, '2018-03-01 06:05:54.563555', '2018-03-01 06:05:54.563555', 1);
+INSERT INTO recipes_items (id, product_id, recipe_id, created_at, updated_at, quantity) VALUES (2, 17, 101, '2018-03-01 06:05:54.571430', '2018-03-01 06:05:54.571430', 6);
+INSERT INTO recipes_items (id, product_id, recipe_id, created_at, updated_at, quantity) VALUES (3, 16, 101, '2018-03-01 06:05:54.580343', '2018-03-01 06:05:54.580343', 250);
+INSERT INTO recipes_items (id, product_id, recipe_id, created_at, updated_at, quantity) VALUES (4, 19, 104, '2018-03-01 06:11:54.870242', '2018-03-01 06:11:54.870242', 1);
+INSERT INTO recipes_items (id, product_id, recipe_id, created_at, updated_at, quantity) VALUES (5, 20, 104, '2018-03-01 06:11:54.881933', '2018-03-01 06:11:54.881933', 60);
+INSERT INTO recipes_items (id, product_id, recipe_id, created_at, updated_at, quantity) VALUES (7, 6, 106, '2018-03-01 06:15:01.162596', '2018-03-01 06:15:01.162596', 0.5);
+INSERT INTO recipes_items (id, product_id, recipe_id, created_at, updated_at, quantity) VALUES (8, 21, 106, '2018-03-01 06:15:01.169866', '2018-03-01 06:15:01.169866', 250);
+INSERT INTO recipes_items (id, product_id, recipe_id, created_at, updated_at, quantity) VALUES (9, 7, 109, '2018-03-01 06:22:19.076253', '2018-03-01 06:22:19.076253', 0.25);
+INSERT INTO recipes_items (id, product_id, recipe_id, created_at, updated_at, quantity) VALUES (12, 25, 111, '2018-03-01 09:13:09.273070', '2018-03-01 09:13:09.273070', 200);
+INSERT INTO recipes_items (id, product_id, recipe_id, created_at, updated_at, quantity) VALUES (13, 27, 111, '2018-03-01 09:13:09.278854', '2018-03-01 09:13:09.278854', 1);
+INSERT INTO recipes_items (id, product_id, recipe_id, created_at, updated_at, quantity) VALUES (14, 26, 111, '2018-03-01 09:13:09.288030', '2018-03-01 09:13:09.288030', 20);
+INSERT INTO recipes_items (id, product_id, recipe_id, created_at, updated_at, quantity) VALUES (15, 28, 111, '2018-03-01 09:13:09.299264', '2018-03-01 09:13:09.299264', 50);
+INSERT INTO recipes_items (id, product_id, recipe_id, created_at, updated_at, quantity) VALUES (16, 17, 113, '2018-03-01 09:31:35.664720', '2018-03-01 09:31:35.664720', 2);
+INSERT INTO recipes_items (id, product_id, recipe_id, created_at, updated_at, quantity) VALUES (17, 17, 115, '2018-03-01 09:48:21.811254', '2018-03-01 09:48:21.811254', 2);
+INSERT INTO recipes_items (id, product_id, recipe_id, created_at, updated_at, quantity) VALUES (18, 32, 115, '2018-03-01 09:48:21.828235', '2018-03-01 09:48:21.828235', 10);

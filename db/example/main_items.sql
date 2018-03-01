@@ -1,0 +1,17 @@
+INSERT INTO items (id, quantity, fridge_id, product_id, limit_date, created_at, updated_at) VALUES (81, 60, 1, 26, '2018-03-01 00:00:00', '2018-03-01 09:22:42.323322', '2018-03-01 11:01:05.593868');
+INSERT INTO items (id, quantity, fridge_id, product_id, limit_date, created_at, updated_at) VALUES (82, 600, 1, 25, '2018-03-01 00:00:00', '2018-03-01 09:23:00.176422', '2018-03-01 11:01:05.578575');
+INSERT INTO items (id, quantity, fridge_id, product_id, limit_date, created_at, updated_at) VALUES (91, 6, 1, 5, '2018-03-01 00:00:00', '2018-03-01 09:34:26.783093', '2018-03-01 09:34:26.783093');
+INSERT INTO items (id, quantity, fridge_id, product_id, limit_date, created_at, updated_at) VALUES (100, 6, 2, 7, '2018-03-01 00:00:00', '2018-03-01 09:46:03.492358', '2018-03-01 09:46:03.492358');
+INSERT INTO items (id, quantity, fridge_id, product_id, limit_date, created_at, updated_at) VALUES (101, 1, 2, 19, '2018-03-01 00:00:00', '2018-03-01 09:46:18.424368', '2018-03-01 09:46:37.495589');
+INSERT INTO items (id, quantity, fridge_id, product_id, limit_date, created_at, updated_at) VALUES (103, 6, 2, 6, '2018-03-01 00:00:00', '2018-03-01 09:46:59.023567', '2018-03-01 09:46:59.023567');
+INSERT INTO items (id, quantity, fridge_id, product_id, limit_date, created_at, updated_at) VALUES (104, 1000, 2, 16, '2018-03-01 00:00:00', '2018-03-01 09:47:10.407872', '2018-03-01 09:47:10.407872');
+INSERT INTO items (id, quantity, fridge_id, product_id, limit_date, created_at, updated_at) VALUES (105, 12, 2, 17, '2018-03-01 00:00:00', '2018-03-01 09:47:20.974075', '2018-03-01 09:47:20.974075');
+INSERT INTO items (id, quantity, fridge_id, product_id, limit_date, created_at, updated_at) VALUES (106, 100, 2, 32, '2018-03-01 00:00:00', '2018-03-01 09:47:54.804662', '2018-03-01 09:47:54.804662');
+INSERT INTO items (id, quantity, fridge_id, product_id, limit_date, created_at, updated_at) VALUES (107, 1000, 2, 25, '2018-03-01 00:00:00', '2018-03-01 09:48:52.997821', '2018-03-01 09:48:52.997821');
+INSERT INTO items (id, quantity, fridge_id, product_id, limit_date, created_at, updated_at) VALUES (108, 100, 2, 28, '2018-03-01 00:00:00', '2018-03-01 09:49:02.365909', '2018-03-01 09:49:02.365909');
+INSERT INTO items (id, quantity, fridge_id, product_id, limit_date, created_at, updated_at) VALUES (109, 100, 2, 26, '2018-03-01 00:00:00', '2018-03-01 09:49:11.889422', '2018-03-01 09:49:11.889422');
+INSERT INTO items (id, quantity, fridge_id, product_id, limit_date, created_at, updated_at) VALUES (110, 3, 2, 27, '2018-03-01 00:00:00', '2018-03-01 09:49:25.306647', '2018-03-01 09:49:25.306647');
+INSERT INTO items (id, quantity, fridge_id, product_id, limit_date, created_at, updated_at) VALUES (111, 100, 2, 21, '2018-03-01 00:00:00', '2018-03-01 09:49:38.094472', '2018-03-01 09:49:38.094472');
+INSERT INTO items (id, quantity, fridge_id, product_id, limit_date, created_at, updated_at) VALUES (112, 1000, 2, 20, '2018-03-01 00:00:00', '2018-03-01 09:50:42.436068', '2018-03-01 09:50:42.436068');
+INSERT INTO items (id, quantity, fridge_id, product_id, limit_date, created_at, updated_at) VALUES (114, 1, 1, 7, '2018-03-01 00:00:00', '2018-03-01 11:31:31.207618', '2018-03-01 11:31:31.207618');
+INSERT INTO items (id, quantity, fridge_id, product_id, limit_date, created_at, updated_at) VALUES (115, 1000, 1, 16, '2018-03-01 00:00:00', '2018-03-01 11:34:15.285581', '2018-03-01 11:34:15.285581');

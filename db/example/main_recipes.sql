@@ -1,0 +1,6 @@
+INSERT INTO recipes (id, name, description, people, created_at, updated_at) VALUES (101, 'Crèpes', 'Lorem ipsum', null, '2018-03-01 06:05:54.555821', '2018-03-01 06:05:54.555821');
+INSERT INTO recipes (id, name, description, people, created_at, updated_at) VALUES (104, 'Meringues', 'Lorem ipsum', null, '2018-03-01 06:11:54.855803', '2018-03-01 06:11:54.855803');
+INSERT INTO recipes (id, name, description, people, created_at, updated_at) VALUES (106, 'Chocolat chaud', 'Lorem ipsum', null, '2018-03-01 06:15:01.152889', '2018-03-01 06:15:01.152889');
+INSERT INTO recipes (id, name, description, people, created_at, updated_at) VALUES (109, 'Verre d''eau', 'Lorem ipsum', null, '2018-03-01 06:22:19.065374', '2018-03-01 06:22:19.065374');
+INSERT INTO recipes (id, name, description, people, created_at, updated_at) VALUES (111, 'Risotto', 'Un test de risoto', null, '2018-03-01 09:13:09.264845', '2018-03-01 09:13:09.264845');
+INSERT INTO recipes (id, name, description, people, created_at, updated_at) VALUES (115, 'Omelette aux herbes', '', null, '2018-03-01 09:48:21.794171', '2018-03-01 09:48:21.794171');

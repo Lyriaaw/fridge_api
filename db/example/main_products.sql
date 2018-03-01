@@ -1,0 +1,16 @@
+INSERT INTO products (id, name, description, created_at, updated_at, unit) VALUES (5, 'Beurre doux', '', '2018-02-28 01:56:03.174987', '2018-03-01 06:04:31.464673', 'g');
+INSERT INTO products (id, name, description, created_at, updated_at, unit) VALUES (6, 'Lait', '', '2018-02-28 01:56:11.123343', '2018-03-01 05:48:57.550215', 'l');
+INSERT INTO products (id, name, description, created_at, updated_at, unit) VALUES (7, 'Evian', '', '2018-02-28 01:56:16.252326', '2018-03-01 09:51:12.919342', 'l');
+INSERT INTO products (id, name, description, created_at, updated_at, unit) VALUES (16, 'Farine', '', '2018-03-01 06:04:24.056696', '2018-03-01 06:04:24.056696', 'g');
+INSERT INTO products (id, name, description, created_at, updated_at, unit) VALUES (17, 'Oeuf', '', '2018-03-01 06:04:39.480356', '2018-03-01 06:04:39.480356', '');
+INSERT INTO products (id, name, description, created_at, updated_at, unit) VALUES (18, 'Beurre salé', '', '2018-03-01 06:04:48.213692', '2018-03-01 06:04:48.213692', '');
+INSERT INTO products (id, name, description, created_at, updated_at, unit) VALUES (19, 'Blanc d''oeuf', '', '2018-03-01 06:06:15.173731', '2018-03-01 06:06:15.173731', '');
+INSERT INTO products (id, name, description, created_at, updated_at, unit) VALUES (20, 'Sucre', '', '2018-03-01 06:06:38.980299', '2018-03-01 06:06:38.980299', 'g');
+INSERT INTO products (id, name, description, created_at, updated_at, unit) VALUES (21, 'Chocolat en carre', '', '2018-03-01 06:14:37.145048', '2018-03-01 09:20:06.424664', 'g');
+INSERT INTO products (id, name, description, created_at, updated_at, unit) VALUES (23, 'Salade Verte', '', '2018-03-01 09:10:04.008885', '2018-03-01 09:10:04.008885', '');
+INSERT INTO products (id, name, description, created_at, updated_at, unit) VALUES (25, 'Riz', '', '2018-03-01 09:10:51.636848', '2018-03-01 09:10:51.636848', 'g');
+INSERT INTO products (id, name, description, created_at, updated_at, unit) VALUES (26, 'Champigons de paris', '', '2018-03-01 09:11:07.468928', '2018-03-01 09:11:07.468928', 'g');
+INSERT INTO products (id, name, description, created_at, updated_at, unit) VALUES (27, 'Oignon', '', '2018-03-01 09:11:15.373843', '2018-03-01 09:11:15.373843', '');
+INSERT INTO products (id, name, description, created_at, updated_at, unit) VALUES (28, 'Crème fraiche', '', '2018-03-01 09:11:22.115212', '2018-03-01 09:11:22.115212', 'cl');
+INSERT INTO products (id, name, description, created_at, updated_at, unit) VALUES (29, 'Jaune d''oeuf', '', '2018-03-01 09:26:39.058019', '2018-03-01 09:26:39.058019', '');
+INSERT INTO products (id, name, description, created_at, updated_at, unit) VALUES (32, 'Ciboulette', '', '2018-03-01 09:47:42.339730', '2018-03-01 09:47:42.339730', 'g');

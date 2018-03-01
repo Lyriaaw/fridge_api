@@ -1,3 +1,2 @@
 class RecipesSteps < ApplicationRecord
-
 end

@@ -1,0 +1,1 @@
+INSERT INTO ar_internal_metadata (key, value, created_at, updated_at) VALUES ('environment', 'development', '2018-02-27 18:13:09.917631', '2018-02-27 18:13:09.917631');
