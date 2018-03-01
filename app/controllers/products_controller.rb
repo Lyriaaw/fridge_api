@@ -7,7 +7,6 @@ class ProductsController < ApplicationController
   end
 
   def update
-    # @product = Product.new(params.require(:product).permit(:name, :description, :unit, :id))
     @product = Product.find(params[:id])
 
     @product.update(name: params[:name])
@@ -22,14 +21,17 @@ class ProductsController < ApplicationController
     render json: @product
   end
 
+  # Cascade destroy product
   def destroy
     @product = Product.find(params[:id])
 
+    # Finding all the product fridge item and delete them
     @items = Item.where(:product_id => params[:id])
     @items.each do |item|
       item.delete
     end
 
+    # Finding all the product recipe item and delete them
     @items = RecipesItems.where(:product_id => params[:id])
     @items.each do |item|
       item.delete
