@@ -11,6 +11,17 @@ class ItemsController < ApplicationController
     render :json => @items.to_json(:include => :product)
   end
 
+  def destroy
+    @item = Item.find(params[:id])
+
+    @item.delete
+
+    render :json => @item.to_json
+  end
+
+
+
+
   def item_from_fridge_id
     @items = Item.where(:fridge_id => params[:fridge_id])
 
@@ -24,6 +35,7 @@ class ItemsController < ApplicationController
 
 
 
+
   def change_multiple_items
     @items = params[:items]
 
@@ -31,7 +43,6 @@ class ItemsController < ApplicationController
       @current_item = Item.find(item[:id])
       @current_item.update(quantity: item[:quantity])
 
-      # Item.update(@current_item)
     end
 
     render :json => @items.to_json

@@ -23,12 +23,8 @@ class RecipeFinderController < ApplicationController
     @recipes.each do |recipe|
       possible = true
 
-      puts "Searching in " + recipe.name
-
       recipe.recipes_items.each do |current_item|
-        puts "Current item : " + current_item.product.name
         possible = false unless products.include?(current_item.product)
-        puts "So : " + (possible ? "yes" : "no")
       end
 
       if possible
