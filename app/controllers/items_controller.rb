@@ -22,4 +22,20 @@ class ItemsController < ApplicationController
     render :json => @items.to_json(:include => :product)
   end
 
+
+
+  def change_multiple_items
+    @items = params[:items]
+
+    @items.each do |item|
+      @current_item = Item.find(item[:id])
+      @current_item.update(quantity: item[:quantity])
+
+      # Item.update(@current_item)
+    end
+
+    render :json => @items.to_json
+
+  end
+
 end

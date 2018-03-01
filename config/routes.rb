@@ -12,11 +12,13 @@ Rails.application.routes.draw do
   get '/items/fridge/:fridge_id', to: 'items#item_from_fridge_id'
   get '/items/fridge/:fridge_id/obsolete', to: 'items#item_from_fridge_and_soon_obsolete'
 
-  post '/recipe/:recipe_id/add-item', to: 'recipe_item#create'
-  post '/recipe/:recipe_id/add-step', to: 'recipe_step#create'
+  put '/items', to: 'items#change_multiple_items'
 
 
   get '/recipes/find/:fridgeId', to: 'recipe_finder#find'
+  post '/recipe/:recipe_id/add-item', to: 'recipe_item#create'
+  post '/recipe/:recipe_id/add-step', to: 'recipe_step#create'
+
 
 
 
