@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180228233240) do
+ActiveRecord::Schema.define(version: 20180301001532) do
 
   create_table "fridges", force: :cascade do |t|
     t.datetime "created_at", null: false
@@ -36,30 +36,30 @@ ActiveRecord::Schema.define(version: 20180228233240) do
     t.text "unit"
   end
 
-  create_table "receipe_items", force: :cascade do |t|
-    t.integer "product_id"
-    t.integer "receipe_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.float "quantity"
-    t.index ["product_id"], name: "index_receipe_items_on_product_id"
-    t.index ["receipe_id"], name: "index_receipe_items_on_receipe_id"
-  end
-
-  create_table "receipe_steps", force: :cascade do |t|
-    t.integer "receipe_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.text "description"
-    t.index ["receipe_id"], name: "index_receipe_steps_on_receipe_id"
-  end
-
-  create_table "receipes", force: :cascade do |t|
+  create_table "recipes", force: :cascade do |t|
     t.string "name"
     t.string "description"
     t.integer "people"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "recipes_items", force: :cascade do |t|
+    t.integer "product_id"
+    t.integer "recipe_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.float "quantity"
+    t.index ["product_id"], name: "index_recipes_items_on_product_id"
+    t.index ["recipe_id"], name: "index_recipes_items_on_recipe_id"
+  end
+
+  create_table "recipes_steps", force: :cascade do |t|
+    t.integer "recipe_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.text "description"
+    t.index ["recipe_id"], name: "index_recipes_steps_on_recipe_id"
   end
 
 end

@@ -1,2 +1,2 @@
-module ReceipeStepHelper
+module RecipeStepHelper
 end

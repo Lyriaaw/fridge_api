@@ -1,2 +1,2 @@
-module ReceipeItemHelper
+module RecipeItemHelper
 end

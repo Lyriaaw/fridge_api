@@ -16,7 +16,7 @@ class RecipeFinderController < ApplicationController
 
   def find_recipe_for(products)
 
-    @recipes = Receipe.all
+    @recipes = Recipe.all
 
     @available_recipes = []
 
@@ -25,7 +25,7 @@ class RecipeFinderController < ApplicationController
 
       puts "Searching in " + recipe.name
 
-      recipe.receipe_items.each do |current_item|
+      recipe.recipes_items.each do |current_item|
         puts "Current item : " + current_item.product.name
         possible = false unless products.include?(current_item.product)
         puts "So : " + (possible ? "yes" : "no")
@@ -37,7 +37,7 @@ class RecipeFinderController < ApplicationController
 
     end
 
-    render :json => @available_recipes.to_json(:include => {:receipe_items => {:include => :product}})
+    render :json => @available_recipes.to_json(:include => {:recipes_items => {:include => :product}})
   end
 
 end
