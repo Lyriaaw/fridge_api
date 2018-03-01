@@ -1,5 +1,5 @@
-#Fridge API
-##API for the fridge manager
+#Fridge API  
+##API for the fridge manager  
 
 ###how to :
 `git clone git@github.com:Lyriaaw/fridge_api.git`  
