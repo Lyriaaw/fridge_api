@@ -16,6 +16,7 @@ Rails.application.routes.draw do
   post '/recipe/:recipe_id/add-item', to: 'recipe_item#create'
   post '/recipe/:recipe_id/add-step', to: 'recipe_step#create'
 
+  post '/dialog', to: 'dialog#intent'
 
 
 
